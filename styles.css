@@ -1,0 +1,352 @@
+body {
+  margin: 0;
+}
+
+.appContainer {
+  background-image: url("https://thumbs.dreamstime.com/b/light-wood-texture-background-pattern-93527511.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1em;
+}
+.storeDetails {
+  display: flex;
+  align-items: center;
+}
+.logoImg {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+}
+.profileDetails {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  border-radius: 5px;
+}
+.userName {
+  padding: 0 5px;
+}
+.avatarImg {
+  height: 40px;
+  width: 40px;
+  padding-right: 2px;
+  border-right: 1px solid black;
+}
+.settingsButton {
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  border-left: 1px solid black;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.languageImg {
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+.languageButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 10px;
+}
+.languageText {
+  font-size: smaller;
+}
+.hederRightContainer {
+  display: flex;
+  gap: 10px;
+}
+.powerButton {
+  height: 40px;
+  border-radius: 5px;
+}
+.dashboardTile {
+  background-color: #222630;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  min-width: 20vw;
+}
+.weeklyMenuGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5px 0;
+}
+.menuTile {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  justify-content: space-around;
+  margin: 20px 10px;
+}
+.localTile {
+  background-color: #fe4a2f;
+}
+.koreanTile {
+  background-color: #254a9f;
+}
+.specialTile {
+  background-color: #8e51c7;
+}
+.healthyTile {
+  background-color: #e84c86;
+}
+.locationIcon {
+  margin-top: -40px;
+}
+.suggestionTile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.tilesContainer {
+  display: flex;
+}
+.menuContainer {
+  background-color: #e21e3d;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  min-width: 20vw;
+}
+.menuHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.menuDate {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 2px 10px;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.itemName {
+  margin-right: 0px;
+  text-align: left;
+}
+
+.priceSeparator {
+  flex: 1;
+  border-bottom: 2px dotted white;
+  margin: 0.6em 5px 0;
+}
+
+.itemPrice {
+  text-align: right;
+}
+
+.menuCategory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 0 20px; */
+  width: 30%;
+}
+
+.menuCategoryImg {
+  width: 100%;
+  height: 100%;
+  max-width: 100px;
+  max-height: 150px;
+  border-radius: 5px;
+  -webkit-box-shadow: 15px 15px 54px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 15px 15px 54px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 15px 15px 54px -13px rgba(0, 0, 0, 0.75);
+}
+
+.menuCategoryContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.reservationTile {
+  color: white;
+  margin: 10px;
+  min-width: 20vw;
+  background-color: #de4c0c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.reservationImg {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bookButton {
+  background-color: white;
+  padding: 5px 20px;
+  color: #f87470;
+  border-radius: 5px;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+.surveyTile {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  min-width: 20vw;
+}
+.surveyHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.anchovies {
+  position: absolute;
+  background-color: #82afee;
+  opacity: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sausage {
+  position: relative;
+  top: 5px;
+  left: 90px;
+  background-color: #ef7a4b;
+  opacity: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.artichoke {
+  position: relative;
+  left: 80px;
+  background-color: #b2d195;
+  opacity: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.other {
+  position: relative;
+  top: -30px;
+  left: 60px;
+  background-color: #777576;
+  opacity: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accountTile {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  min-width: 20vw;
+}
+.accountTileHeader {
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.accountActivity {
+  width: 100%;
+}
+.transactionDetails {
+  display: flex;
+  border-top: 1px dotted black;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+.accountBal {
+  display: flex;
+  align-items: baseline;
+}
+.amount {
+  font-size: x-large;
+  color: #f8695f;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.currency {
+  font-size: small;
+}
+.lastUpdated {
+  font-size: small;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.favoritesTile {
+  color: white;
+  background-color: #636cac;
+  padding: 10px;
+  margin: 10px;
+}
+.favHeader {
+  display: flex;
+  align-items: center;
+}
+.favItem {
+  border: 1px solid white;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 1024px) {
+  .tilesContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .tilesContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .dashboardCol {
+    width: 90vw;
+    margin: auto;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+  .appContainer {
+    background-repeat: repeat-y;
+  }
+}
